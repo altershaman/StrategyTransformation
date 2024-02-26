@@ -1,0 +1,28 @@
+entities:
+
+  seaf.ba.goals:
+    title: Периоды
+    description: >
+      Именованные временнЫе периоды для использования вместе со статусами
+    schema:
+      type: object
+      patternProperties:
+        "[a-zA-Z0-9_]*(\\.[a-zA-Z0-9_]*)*$":
+          type: object
+          properties:
+            title:
+              title: Наименование цели
+              type: string
+            description:
+              title: Цель - развернуто
+              type: string
+
+          required:
+            - title
+    
+    objects:
+      goal:
+        route: "/"
+        title: Цель
+        symbol: "goal"
+

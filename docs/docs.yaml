@@ -1,0 +1,6 @@
+docs:
+  stt_main:
+    location: Стратегия и трансформация/Обзор
+    description: STT docs entry point
+    type: markdown
+    source: stt_main.md

@@ -1,0 +1,20 @@
+# Метаданные пакета
+# $package:
+#   StrategyTransformation: # Идентификатор пакета
+#     # Краткое название пакета
+#     name: Strategy and Transformation
+#     # Поставщик
+#     vendor: Sber & @altershaman
+#     # Описание
+#     description: Расширение SEAF для описания стратегии и трансформации
+#     # Версия
+#     version: 0.1.0
+#     # Зависимости от других пакетов
+#     dependencies:
+#       dochub: ">=3.9.0"
+#       seaf-core: ">=1.2.3"
+#       timeMachine: ">=0.1.0"
+
+imports:
+  - entities/goals.yaml
+  - docs/docs.yaml
